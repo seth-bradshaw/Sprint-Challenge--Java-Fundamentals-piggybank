@@ -34,11 +34,10 @@ public class CoinController
             if (c.getQuantity() == 1)
             {
                 output += c.getQuantity() + " " + c.getName() + "\n";
-            }
-            if (c.getQuantity() > 1)
-            {
-                output += c.getQuantity() + " " + c.getNameplural() + "\n";
-            }
+            } if (c.getQuantity() > 1)
+                {
+                    output += c.getQuantity() + " " + c.getNameplural() + "\n";
+                }
         }
         output += "The piggy bank holds " + df.format(total);
         System.out.println(output);

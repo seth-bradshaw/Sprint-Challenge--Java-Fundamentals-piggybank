@@ -23,9 +23,14 @@ Commit your code regularly and meaningfully. This helps both you (in case you ev
 Be prepared to demonstrate your understanding of this week's concepts by answering questions on the following topics. You might prepare by writing down your own answers before hand.
 
 1. Explain how you took advantage of Java's Object Oriented approach to solve the sprint challenge.
+   I created a class that will control all user interaction with our data, and I created a model for the data so every instance of the model will have the same format.
 2. Explain the three steps needed to run a Java application (using the JDK) including what each step does and how those step correlate to running a JavaScript application.
+   The first step is compile the byte code, then you create a jar file that has the ability to execute the byte code, and then you execute the jar file.
 3. Explain how Java being a strongly typed language affected you solution.
+   At first, I had my variable total as a long, and I kept on getting 6 as my output, instead of 7.30. I realized that the reason for that is long's don't have a decimal, so it wasn't adding the 
+   values that had a decimal. Once I changed the type to double the code executed just fine.
 4. Can you explain the differences between Abstract Classes and Interfaces including how they are used in your application?
+   Abstract classes can contain abstract methods, normal methods, and fields, when an interface can only have abstract methods. You can inherit from multiple interfaces, when you can only extend a single class.
 
 ## Instructions
 
